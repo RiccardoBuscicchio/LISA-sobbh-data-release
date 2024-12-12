@@ -1,0 +1,17 @@
+name: sobbh
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - matplotlib
+  - astropy
+  - pytables
+  - scipy
+  - ipykernel
+  - pandas
+  - h5py
+  - pip
+  - pip:
+    - corner
